@@ -1,0 +1,66 @@
+<?php
+
+	include_one("db.php");
+	/**
+	* 
+	*/
+	class Auth 
+	{
+		
+		public function __construct()
+		{
+			session_start();
+
+			  if (isset($_COOKIE["user_logged"]) && !$this->isLogged()) {
+   				 $this->login($_COOKIE["user_logged"]);
+ 		 			}
+
+		}
+
+		public function login($email) {
+    		$_SESSION["user_logged"] = $email;
+  			};
+
+
+  		public function isLogged() {
+    		if (isset($_SESSION["user_logged"])) {
+   		   return true;
+    		}
+   			else {
+      		return false;
+   			 }
+ 			 };
+
+  			public function logout() {
+    		session_destroy();
+    		setcookie("user_logged", "", -1);
+ 			 };
+
+
+  		public function getLoggedUser() {
+    		if ($this->isLogged()) {
+    		 $email = $_SESSION["user_logged"];
+     		 return db->getByEmail($email);
+   			 } else {
+   			 return null;
+   			 }
+ 			 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+  ?>

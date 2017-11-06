@@ -1,0 +1,222 @@
+*{
+	
+	
+}
+
+ul{
+	list-style-type: none;
+}
+ul li{
+	display: inline-block;
+	padding: 1%;
+}
+
+a{
+	color: white;
+	text-decoration:none;
+
+}
+.container{
+	position: relative;
+/*	border:solid 3px green;
+*/	margin: 1%;
+}
+
+body{
+	background-image: url(../images/fondo.jpg);
+	font-family:sans-serif;
+}
+}
+.logo-index{
+	position: absolute;
+	top: 3px;
+	left: 1%;
+	
+}
+.enter_buttoms{
+/*    background: #F05332;
+*/	display:block;
+	text-align: right;
+	margin: 3%;
+	position: relative;
+	margin-top: 2.2%;
+}
+
+.enter_buttoms li{
+/*	position: relative;
+*/
+}
+
+.marca{
+/*	background: yellow;
+*/	
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size: 350%;
+	position: absolute;
+	top: 10%;
+	right: 37%;
+	color: white;
+	background: ;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+}
+
+.slogan{
+
+	background: ;
+	text-align:center;
+	font-family: 'Italianno', cursive;
+	font-size: 250%;
+	margin: 0;
+	position: absolute;
+	top: 27%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+/*	background-color: rgba(0,0,0,0.5);
+*/	color: #F05332;
+	padding: 15px;
+
+}
+div .search-products{
+	/*position: absolute;
+	top: 60%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}*/}
+.search-products {
+	display: inline-block;
+	margin: 1%;
+	position: absolute;
+	top: 38%;
+	transform: translateY(-50%);
+	width: 70%;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.search-products button{
+	background: yellow;
+	float: right;
+	/*overflow: hidden;
+	position: relative;;
+	width: 40%;
+	height:50px;*/
+}
+.search-products input{
+	width: 75%;
+	background-color: rgba(0,0,0,0.5);
+	padding: 2%;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+footer{
+	text-align: right;
+	margin: 2%;
+}/*
+forularios de registro*/
+
+.formularios{
+	position: absolute;
+	width: 25%;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%)
+}
+.formularios input{
+	background-color: #f7f7f7;
+	margin-bottom: 1.5%;
+	padding: 2%;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 96%;
+}
+span{
+	color: #999;
+
+}
+.formularios button{
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	padding: 2%;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.enviar{
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+/*	background-color:#3b5998;*/
+	color: white;
+	font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+}
+.i-facebook{
+	vertical-align: middle;
+	background-color: #3b5998;
+	color: white;
+	font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.i-google{
+	background-color:#d34836;
+	color: white;
+}
+.Recordarme{
+	width: 50%;
+	font-family: sans-serif;
+	color: white;
+	display: block;
+	font-weight: 400;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 3%;
+}
+/*	background-color: red;
+*/	
+}
+.remember{
+	float: right;
+	display: overflow-hidden;
+}
